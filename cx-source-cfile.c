@@ -15,11 +15,7 @@
 typedef char string[];
 
 
-// Start Functions
 
-// Start Stringer Functions
-
-// Start  upper
 
 
 
@@ -77,10 +73,7 @@ while(value[query] != '\0')
 
 
 
-// Stop upper
 
-
-// Start lower
 
 void lower(char value[])
 {
@@ -134,10 +127,7 @@ int upperquery = 0;
 
 }
 
-// Stop lower
 
-
-// Start firstupper
 
 void firstupper(char value[])
 {
@@ -156,9 +146,7 @@ void firstupper(char value[])
 
 }
 
-// Stop firstupper
 
-// Start endupper
 
  void endupper(char value[])
 {
@@ -209,9 +197,7 @@ else
 }
 
 
-// Stop endupper
 
-// Start firstlower
 
 void firstlower(char value[])
 {
@@ -232,9 +218,7 @@ void firstlower(char value[])
 
 }
 
-// Stop firstlower
 
-// Start endlower
 
 void endlower(char value[])
 {
@@ -279,9 +263,7 @@ else
 }
 
 
-// Stop endlower
 
-// Start substr
 
 void selstr(char substr_value[],int start,int finish)
 {
@@ -308,9 +290,6 @@ void selstr(char substr_value[],int start,int finish)
 
 }
 
-// Stop substr
-
-// Start wrtscan
 
 void wrtscan(char scaning_string[], char scaned[],char result[])
 {
@@ -340,14 +319,6 @@ void wrtscan(char scaning_string[], char scaned[],char result[])
 
 }
 
-// Stop wrtscan
-
-
-// Start scanvalue
-
-
-
-// Start rtrim
 
 void rtrim(char value[],char crter[],char new_value[])
 {
@@ -379,13 +350,6 @@ void rtrim(char value[],char crter[],char new_value[])
 }
 
 
-// Stop rtrim
-
-
-// Stop scanvalue
-
-// Start delchr
-
 void delchr(char value[],char chr[], char result[])
 {
 
@@ -414,9 +378,6 @@ void delchr(char value[],char chr[], char result[])
 
 }
 
-// Stop delchr
-
-// Start cover
 void cover(char value[])
 {
 
@@ -446,14 +407,6 @@ void cover(char value[])
 }
 
 
-// Stop cover
-
-
-// Stop Stringer Functions
-
-// Start Integer Functions
-
-// Start dagcrad
 
 double dagcrad(double dag)
 {
@@ -465,9 +418,6 @@ return dag * M_PI / 180.0 ;
 
 }
 
-// Stop dagcrad
-
-// Start scanvalue
 
 int scanvalue(char value[],char scan_value[])
 {
@@ -510,9 +460,7 @@ int scanvalue(char value[],char scan_value[])
 
 }
 
-// Stop scanvalue
 
-// Start length
 
 
 int lenght(char lenght_value[])
@@ -534,9 +482,7 @@ int lenght(char lenght_value[])
 
 }
 
-// Stop length
 
-// Start scanstr
 
 int scan_char(char scaning_string[],char scaned[])
 {
@@ -561,7 +507,7 @@ int scan_char(char scaning_string[],char scaned[])
 
 }
 
-// Start Square
+
 
 int square(int val1)
 {
@@ -573,7 +519,6 @@ return quest;
 
 }
 
-// Start "positive" and "negative"
 
 int positive()
 {
@@ -589,10 +534,7 @@ int negative()
 
 }
 
-// Stop "positive" and "negative"
 
-
-//Start empty
 
 int empty(char x[])
 {
@@ -614,9 +556,6 @@ return 1;
 
 }
 
-// Stop empty
-
-// Start rnd
 
 int rnd(float value)
 {
@@ -637,9 +576,7 @@ int rnd(float value)
 
 }
 
-// Stop rnd
 
-// Start flr
 
 int lowerfloor(float value)
 {
@@ -648,9 +585,6 @@ return value - 0.5;
 
 }
 
-// Stop flr
-
-// Start upperfloor
 
 int upperfloor(float value)
 {
@@ -664,12 +598,6 @@ return value + 1;
 
 }
 
-// Stop upperfloor
-
-
-// Stop Integer Functions
-
-// Stop Functions
 
 
 int main()
