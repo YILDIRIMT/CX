@@ -1,1 +1,1 @@
-<B>A group of C functions</B>
+A group of C functions
