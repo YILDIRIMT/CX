@@ -5,13 +5,11 @@
 #include <stdlib.h>
 
 
-
 #define write(WRITER) _Generic((WRITER), int : printf("%d",WRITER), char* : printf("%s",WRITER), float : printf("%f",WRITER), double : printf("%lf",WRITER), short : printf("%d",WRITER), long : printf("%ld",WRITER))
 #define dell(DELLT) _Generic((DELT), int : free(DELLT), char* : free(DELLT), float : free(DELLT), double : free(DELLT), short : free(DELLT), long : free(DELLT))
 #define pi M_PI
 
 typedef char string[];
-
 
 
 void upper(char value[])
@@ -67,9 +65,6 @@ while(value[query] != '\0')
 }
 
 
-
-
-
 void lower(char value[])
 {
 
@@ -123,7 +118,6 @@ int upperquery = 0;
 }
 
 
-
 void firstupper(char value[])
 {
 
@@ -140,7 +134,6 @@ void firstupper(char value[])
         }
 
 }
-
 
 
  void endupper(char value[])
@@ -166,19 +159,12 @@ query++;
 if(value[query] == '\0')
 {
 
-
-
-
 query--;
-
-
+	
 if(isupper(value[query]))
 {
 
 value[query] = value[query];
-
-
-
 
 }
 else
@@ -192,12 +178,8 @@ else
 }
 
 
-
-
 void firstlower(char value[])
 {
-
-
 
         if (value[0] >= 'A' && value[0] <= 'Z')
         {
@@ -210,14 +192,11 @@ void firstlower(char value[])
 
         }
 
-
 }
-
 
 
 void endlower(char value[])
 {
-
 
 int query = 0;
 
@@ -233,16 +212,12 @@ query++;
 if(value[query] == '\0')
 {
 
-
-
 query--;
 
 if(islower(value[query]))
 {
 
 value[query] = value[query];
-
-
 
 }
 else
@@ -258,13 +233,8 @@ else
 }
 
 
-
-
 void selstr(char substr_value[],int start,int finish)
 {
-
-
-
 
    int starter,query_for,nvalue_index;
    query_for = start ;
@@ -402,7 +372,6 @@ void cover(char value[])
 }
 
 
-
 double dagcrad(double dag)
 {
 
@@ -456,8 +425,6 @@ int scanvalue(char value[],char scan_value[])
 }
 
 
-
-
 int lenght(char lenght_value[])
 {
 
@@ -476,7 +443,6 @@ int lenght(char lenght_value[])
   return new_value_lenght;
 
 }
-
 
 
 int scan_char(char scaning_string[],char scaned[])
@@ -503,7 +469,6 @@ int scan_char(char scaning_string[],char scaned[])
 }
 
 
-
 int square(int val1)
 {
 
@@ -528,7 +493,6 @@ int negative()
    return 0;
 
 }
-
 
 
 int empty(char x[])
@@ -572,7 +536,6 @@ int rnd(float value)
 }
 
 
-
 int lowerfloor(float value)
 {
 
@@ -594,11 +557,9 @@ return value + 1;
 }
 
 
-
 int main()
 {
 
 return 0;
 
 }
-
