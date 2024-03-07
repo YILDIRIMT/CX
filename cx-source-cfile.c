@@ -6,16 +6,11 @@
 
 
 
-// MAKROS & DEFINE & METER
-
 #define write(WRITER) _Generic((WRITER), int : printf("%d",WRITER), char* : printf("%s",WRITER), float : printf("%f",WRITER), double : printf("%lf",WRITER), short : printf("%d",WRITER), long : printf("%ld",WRITER))
 #define dell(DELLT) _Generic((DELT), int : free(DELLT), char* : free(DELLT), float : free(DELLT), double : free(DELLT), short : free(DELLT), long : free(DELLT))
 #define pi M_PI
 
 typedef char string[];
-
-
-
 
 
 
